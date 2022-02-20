@@ -1,0 +1,16 @@
+:root {
+    font-size: 10px;
+}
+
+body {
+    font-family: $fontNunito, sans-serif;
+    font-size: 1.6rem;
+    color: $black;
+    background-color: $white;
+}
+
+[class*="__container"] {
+    max-width: $containerWidth;
+    margin: 0 auto;
+    padding: 0 100px;
+}
